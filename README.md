@@ -1,0 +1,1 @@
+This is a simple blog web application build with python and django which contains a lot of functionalities such as a **search engine (stemming, rank, triagram)**, **comments system**, **django-taggit tags system**, **SITEMAP**, **RSS FEED**, **own tags and filters**, **paginator**, **newest and most commented posts propositions**, 

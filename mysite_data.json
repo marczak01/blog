@@ -1,5 +1,291 @@
 [
 {
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2025-01-04T07:41:11.188Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Pierwszy wpis na blogu",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2025-01-04T07:46:45.518Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Stary wpis testowy",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2025-01-04T08:00:33.785Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "nowy wpis",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2025-01-04T08:27:15.914Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Pierwszy wpis na blogu",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2025-01-04T08:30:26.189Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "nowy wpis",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2025-01-04T09:36:24.472Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "5",
+    "object_repr": "nowy wpis",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2025-01-04T09:36:46.226Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "5",
+    "object_repr": "nowy wpis",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2025-01-04T09:36:52.374Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "test shell wersja 2",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2025-01-04T09:45:41.875Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "6",
+    "object_repr": "Lorem Ipsum comes",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2025-01-04T09:46:05.266Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "7",
+    "object_repr": "500s is reproduced below for those",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2025-01-04T09:46:22.566Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "8",
+    "object_repr": "English versions from the 1914",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2025-01-04T09:46:42.487Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "9",
+    "object_repr": "The first line of Lorem Ipsum",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2025-01-06T12:05:26.409Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "Komentarz dodany przez Adam Mickiewicz dla posta The first line of Lorem Ipsum",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2025-01-07T19:34:11.554Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "9",
+    "object_repr": "The first line of Lorem Ipsum",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2025-01-08T19:25:31.512Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "7",
+    "object_repr": "500s is reproduced below for those",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2025-01-08T19:25:38.803Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "5",
+    "object_repr": "nowy wpis",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2025-01-08T19:25:44.266Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Pierwszy wpis na blogu",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2025-01-08T19:25:48.501Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "7",
+    "object_repr": "500s is reproduced below for those",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2025-01-08T19:25:53.794Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "test shell wersja 2",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2025-01-12T08:00:58.415Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "10",
+    "object_repr": "To jest post sformatowany za pomoca składni Markdown",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2025-01-12T08:23:52.183Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "1",
+    "object_repr": "localhost:8000",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Domain name\", \"Display name\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2025-01-12T08:39:15.400Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "11",
+    "object_repr": "test dla rss fluent reader",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
   "model": "auth.permission",
   "pk": 1,
   "fields": {
@@ -396,6 +682,24 @@
   }
 },
 {
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$390000$XnyNqbD5H7Tk3pI0LUWbVr$EP6EAoRaey4u7V7WA9B5dKRNrPPd6Qh6FaRBztta8qM=",
+    "last_login": "2025-01-04T07:37:54.347Z",
+    "is_superuser": true,
+    "username": "marekmarczak",
+    "first_name": "",
+    "last_name": "",
+    "email": "marczak01@o2.pl",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2025-01-04T07:37:34.039Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
   "model": "contenttypes.contenttype",
   "pk": 1,
   "fields": {
@@ -484,11 +788,671 @@
   }
 },
 {
+  "model": "sessions.session",
+  "pk": "eelkdzv5yvz2v0yt6tfivg0fv8lfy46j",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQRO_iGlmx4w-hpM8ZrLV3FweQLcVJhbg7WEoBxTTz3sxLBNi3HPZGa1hQXIQSp98uQnpQ6QDvUG5Vplq2dYmyK_KgTc4V6Xk93L-DDC33NXs0diBAjdaQAY-MMSZHbFiNzI61mmzycVLfeMd4tiOxG1LSQFG8PyQyOZI:1tTyjK:wCtQGJtsB4zrJbB1f1_ZV56PwnWX1mjVlbDR78PL7bY",
+    "expire_date": "2025-01-18T07:37:54.351Z"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 1,
+  "fields": {
+    "title": "Pierwszy wpis na blogu",
+    "slug": "pierwszy-wpis-na-blogu",
+    "author": 1,
+    "body": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "publish": "2025-01-04T07:39:41Z",
+    "created": "2025-01-04T07:41:11.182Z",
+    "updated": "2025-01-08T19:25:44.263Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 3,
+  "fields": {
+    "title": "nowy wpis",
+    "slug": "nowy-wpis",
+    "author": 1,
+    "body": "dada",
+    "publish": "2025-01-04T07:59:53Z",
+    "created": "2025-01-04T08:00:33.780Z",
+    "updated": "2025-01-04T08:30:26.187Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 4,
+  "fields": {
+    "title": "test shell wersja 2",
+    "slug": "test-shell",
+    "author": 1,
+    "body": "tresc wpisu z terminala",
+    "publish": "2025-01-04T08:04:36Z",
+    "created": "2025-01-04T08:04:41.498Z",
+    "updated": "2025-01-08T19:25:53.785Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 5,
+  "fields": {
+    "title": "nowy wpis",
+    "slug": "nowy-wpis2",
+    "author": 1,
+    "body": "asdasd",
+    "publish": "2025-01-04T09:36:04Z",
+    "created": "2025-01-04T09:36:24.470Z",
+    "updated": "2025-01-08T19:25:38.796Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 6,
+  "fields": {
+    "title": "Lorem Ipsum comes",
+    "slug": "lorem-ipsum-comes",
+    "author": 1,
+    "body": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of \"de Finibus Bonorum et Malorum\" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, \"Lorem ipsum dolor sit amet..\", comes from a line in section 1.10.32.\r\n\r\nThe standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from \"de Finibus Bonorum et Malorum\" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.",
+    "publish": "2025-01-04T09:45:28Z",
+    "created": "2025-01-04T09:45:41.874Z",
+    "updated": "2025-01-04T09:45:41.874Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 7,
+  "fields": {
+    "title": "500s is reproduced below for those",
+    "slug": "500s-is-reproduced-below-for-those",
+    "author": 1,
+    "body": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of \"de Finibus Bonorum et Malorum\" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, \"Lorem ipsum dolor sit amet..\", comes from a line in section 1.10.32.\r\n\r\nThe standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from \"de Finibus Bonorum et Malorum\" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.",
+    "publish": "2025-01-04T09:45:42Z",
+    "created": "2025-01-04T09:46:05.264Z",
+    "updated": "2025-01-08T19:25:48.496Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 8,
+  "fields": {
+    "title": "English versions from the 1914",
+    "slug": "english-versions-from-the-1914",
+    "author": 1,
+    "body": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of \"de Finibus Bonorum et Malorum\" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, \"Lorem ipsum dolor sit amet..\", comes from a line in section 1.10.32.\r\n\r\nThe standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from \"de Finibus Bonorum et Malorum\" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.",
+    "publish": "2025-01-04T09:46:06Z",
+    "created": "2025-01-04T09:46:22.565Z",
+    "updated": "2025-01-04T09:46:22.565Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 9,
+  "fields": {
+    "title": "The first line of Lorem Ipsum",
+    "slug": "the-first-line-of-lorem-ipsum",
+    "author": 1,
+    "body": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of \"de Finibus Bonorum et Malorum\" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, \"Lorem ipsum dolor sit amet..\", comes from a line in section 1.10.32.\r\n\r\nThe standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from \"de Finibus Bonorum et Malorum\" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.\r\nContrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of \"de Finibus Bonorum et Malorum\" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, \"Lorem ipsum dolor sit amet..\", comes from a line in section 1.10.32.\r\n\r\nThe standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from \"de Finibus Bonorum et Malorum\" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.\r\nContrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of \"de Finibus Bonorum et Malorum\" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, \"Lorem ipsum dolor sit amet..\", comes from a line in section 1.10.32.\r\n\r\nThe standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from \"de Finibus Bonorum et Malorum\" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.\r\nContrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of \"de Finibus Bonorum et Malorum\" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, \"Lorem ipsum dolor sit amet..\", comes from a line in section 1.10.32.\r\n\r\nThe standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from \"de Finibus Bonorum et Malorum\" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.\r\nContrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of \"de Finibus Bonorum et Malorum\" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, \"Lorem ipsum dolor sit amet..\", comes from a line in section 1.10.32.\r\n\r\nThe standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from \"de Finibus Bonorum et Malorum\" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.\r\nContrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of \"de Finibus Bonorum et Malorum\" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, \"Lorem ipsum dolor sit amet..\", comes from a line in section 1.10.32.\r\n\r\nThe standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from \"de Finibus Bonorum et Malorum\" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.",
+    "publish": "2025-01-04T09:46:23Z",
+    "created": "2025-01-04T09:46:42.486Z",
+    "updated": "2025-01-07T19:34:11.540Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 10,
+  "fields": {
+    "title": "To jest post sformatowany za pomoca składni Markdown",
+    "slug": "to-jest-post-sformatowany-za-pomoca-skladni-markdown",
+    "author": 1,
+    "body": "To jest post sformatowany za pomoca składni Markdown\r\n--------------------------------------------------------------------------------------------\r\n\r\n*Ten zapis oznacza wyrożnienie*, natomiast ten **pogrubienie**.\r\n\r\nPoniżej mamy liste:\r\n\r\n* Jeden\r\n* Dwa\r\n* Trzy\r\n\r\nTutaj jest [łącze do witryny Djano](https://www.djangoproject.com)",
+    "publish": "2025-01-12T07:58:20Z",
+    "created": "2025-01-12T08:00:58.389Z",
+    "updated": "2025-01-12T08:00:58.389Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 11,
+  "fields": {
+    "title": "test dla rss fluent reader",
+    "slug": "test-dla-rss-fluent-reader",
+    "author": 1,
+    "body": "dasd ka sndlk sakl das *dasdas* a d d as**dasdasdas**",
+    "publish": "2025-01-12T08:38:46Z",
+    "created": "2025-01-12T08:39:15.385Z",
+    "updated": "2025-01-12T08:39:15.385Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 1,
+  "fields": {
+    "post": 9,
+    "name": "Adam Mickiewicz",
+    "email": "mickiewicz77@icloud.com",
+    "body": "Lol zajebisty w chuj ten post xd lele",
+    "created": "2025-01-06T12:05:26.408Z",
+    "updated": "2025-01-06T12:05:26.408Z",
+    "active": true
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 2,
+  "fields": {
+    "post": 9,
+    "name": "Abraham Lincoln",
+    "email": "marekblog@o2.es",
+    "body": "Masz racje Mickiewicz",
+    "created": "2025-01-06T12:37:00.982Z",
+    "updated": "2025-01-06T12:37:00.982Z",
+    "active": true
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 3,
+  "fields": {
+    "post": 9,
+    "name": "Django",
+    "email": "test@o2.pl",
+    "body": "Nie znacie się.. nie wiadomo o co tu chodzi",
+    "created": "2025-01-06T12:38:12.169Z",
+    "updated": "2025-01-06T12:38:12.169Z",
+    "active": true
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 4,
+  "fields": {
+    "post": 9,
+    "name": "test",
+    "email": "test@o2.pl",
+    "body": "no i Chuj",
+    "created": "2025-01-06T18:58:08.899Z",
+    "updated": "2025-01-06T18:58:08.899Z",
+    "active": true
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 5,
+  "fields": {
+    "post": 9,
+    "name": "Adam Mickiewicz",
+    "email": "test@o2.pl",
+    "body": "no i CHUJ",
+    "created": "2025-01-06T18:58:37.450Z",
+    "updated": "2025-01-06T18:58:37.450Z",
+    "active": true
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 6,
+  "fields": {
+    "post": 9,
+    "name": "Adam Mickiewicz",
+    "email": "marekblog@o2.es",
+    "body": "i ChUj w ten gnój",
+    "created": "2025-01-06T19:09:16.270Z",
+    "updated": "2025-01-06T19:09:16.270Z",
+    "active": false
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 7,
+  "fields": {
+    "post": 9,
+    "name": "Adam Mickiewicz",
+    "email": "marekblog@o2.es",
+    "body": "i ChUj w ten gnój huj chuj chuj",
+    "created": "2025-01-06T19:09:40.412Z",
+    "updated": "2025-01-06T19:09:40.412Z",
+    "active": false
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 8,
+  "fields": {
+    "post": 9,
+    "name": "Adam Mickiewicz",
+    "email": "marekblog@o2.es",
+    "body": "i ChUj w ten gnój huj chuj chuj",
+    "created": "2025-01-06T19:20:02.024Z",
+    "updated": "2025-01-06T19:20:02.024Z",
+    "active": false
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 9,
+  "fields": {
+    "post": 9,
+    "name": "Adam Mickiewicz",
+    "email": "marekblog@o2.es",
+    "body": "i ChUj w ten gnój huj chuj chuj",
+    "created": "2025-01-06T19:23:46.696Z",
+    "updated": "2025-01-06T19:23:46.696Z",
+    "active": false
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 10,
+  "fields": {
+    "post": 9,
+    "name": "Adam Mickiewicz",
+    "email": "marekblog@o2.es",
+    "body": "no i bitch",
+    "created": "2025-01-06T19:23:54.451Z",
+    "updated": "2025-01-06T19:23:54.451Z",
+    "active": false
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 11,
+  "fields": {
+    "post": 9,
+    "name": "Adam Mickiewicz",
+    "email": "marekblog@o2.es",
+    "body": "ale BitCh sZmaTa",
+    "created": "2025-01-06T19:24:05.401Z",
+    "updated": "2025-01-06T19:24:05.401Z",
+    "active": false
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 12,
+  "fields": {
+    "post": 9,
+    "name": "Adam Mickiewicz",
+    "email": "marekblog@o2.es",
+    "body": "dobraichuj",
+    "created": "2025-01-06T19:27:25.735Z",
+    "updated": "2025-01-06T19:27:25.735Z",
+    "active": false
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 13,
+  "fields": {
+    "post": 9,
+    "name": "Adam Mickiewicz",
+    "email": "marekblog@o2.es",
+    "body": "dobraIChuJ",
+    "created": "2025-01-06T19:27:38.386Z",
+    "updated": "2025-01-06T19:27:38.386Z",
+    "active": false
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 14,
+  "fields": {
+    "post": 9,
+    "name": "Adam Mickiewicz",
+    "email": "marekblog@o2.es",
+    "body": "dobrachujlolxd",
+    "created": "2025-01-06T19:27:47.205Z",
+    "updated": "2025-01-06T19:27:47.205Z",
+    "active": false
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 15,
+  "fields": {
+    "post": 9,
+    "name": "Adam Mickiewicz",
+    "email": "marekblog@o2.es",
+    "body": "dobra chu j lolxd",
+    "created": "2025-01-06T19:28:12.924Z",
+    "updated": "2025-01-06T19:28:12.924Z",
+    "active": true
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 16,
+  "fields": {
+    "post": 9,
+    "name": "Adam Mickiewicz",
+    "email": "marekblog@o2.es",
+    "body": "chuj",
+    "created": "2025-01-07T18:05:13.728Z",
+    "updated": "2025-01-07T18:05:13.728Z",
+    "active": false
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 17,
+  "fields": {
+    "post": 5,
+    "name": "Adam Mickiewicz",
+    "email": "marekblog@o2.pl",
+    "body": "dxx",
+    "created": "2025-01-12T07:49:52.326Z",
+    "updated": "2025-01-12T07:49:52.326Z",
+    "active": true
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 18,
+  "fields": {
+    "post": 4,
+    "name": "Adam Mickiewicz",
+    "email": "marczak01@icloud.com",
+    "body": "asdas",
+    "created": "2025-01-12T07:50:05.574Z",
+    "updated": "2025-01-12T07:50:05.574Z",
+    "active": true
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 19,
+  "fields": {
+    "post": 4,
+    "name": "Lodowisko",
+    "email": "marekblog@o2.pl",
+    "body": "vcvxcv",
+    "created": "2025-01-12T07:50:13.909Z",
+    "updated": "2025-01-12T07:50:13.909Z",
+    "active": true
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 1,
+  "fields": {
+    "name": "django",
+    "slug": "django"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 2,
+  "fields": {
+    "name": "jazz",
+    "slug": "jazz"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 3,
+  "fields": {
+    "name": "muzyka",
+    "slug": "muzyka"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 4,
+  "fields": {
+    "name": "complex",
+    "slug": "complex"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 5,
+  "fields": {
+    "name": "january",
+    "slug": "january"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 6,
+  "fields": {
+    "name": "long",
+    "slug": "long"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 7,
+  "fields": {
+    "name": "markdown",
+    "slug": "markdown"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 8,
+  "fields": {
+    "name": "new",
+    "slug": "new"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 9,
+  "fields": {
+    "name": "templatefilter",
+    "slug": "templatefilter"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 10,
+  "fields": {
+    "name": "filter",
+    "slug": "filter"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 11,
+  "fields": {
+    "name": "templatetag",
+    "slug": "templatetag"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 12,
+  "fields": {
+    "name": "rss",
+    "slug": "rss"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 13,
+  "fields": {
+    "name": "czytniki",
+    "slug": "czytniki"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 14,
+  "fields": {
+    "name": "fluent reader",
+    "slug": "fluent-reader"
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 2,
+  "fields": {
+    "tag": 2,
+    "content_type": 7,
+    "object_id": 1
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 3,
+  "fields": {
+    "tag": 3,
+    "content_type": 7,
+    "object_id": 1
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 4,
+  "fields": {
+    "tag": 4,
+    "content_type": 7,
+    "object_id": 9
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 5,
+  "fields": {
+    "tag": 5,
+    "content_type": 7,
+    "object_id": 9
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 6,
+  "fields": {
+    "tag": 6,
+    "content_type": 7,
+    "object_id": 9
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 7,
+  "fields": {
+    "tag": 3,
+    "content_type": 7,
+    "object_id": 7
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 8,
+  "fields": {
+    "tag": 5,
+    "content_type": 7,
+    "object_id": 7
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 9,
+  "fields": {
+    "tag": 1,
+    "content_type": 7,
+    "object_id": 5
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 10,
+  "fields": {
+    "tag": 2,
+    "content_type": 7,
+    "object_id": 4
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 11,
+  "fields": {
+    "tag": 7,
+    "content_type": 7,
+    "object_id": 10
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 12,
+  "fields": {
+    "tag": 8,
+    "content_type": 7,
+    "object_id": 10
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 13,
+  "fields": {
+    "tag": 9,
+    "content_type": 7,
+    "object_id": 10
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 14,
+  "fields": {
+    "tag": 10,
+    "content_type": 7,
+    "object_id": 10
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 15,
+  "fields": {
+    "tag": 11,
+    "content_type": 7,
+    "object_id": 10
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 16,
+  "fields": {
+    "tag": 12,
+    "content_type": 7,
+    "object_id": 11
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 17,
+  "fields": {
+    "tag": 13,
+    "content_type": 7,
+    "object_id": 11
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 18,
+  "fields": {
+    "tag": 14,
+    "content_type": 7,
+    "object_id": 11
+  }
+},
+{
   "model": "sites.site",
   "pk": 1,
   "fields": {
-    "domain": "example.com",
-    "name": "example.com"
+    "domain": "localhost:8000",
+    "name": "localhost:8000"
   }
 }
 ]
